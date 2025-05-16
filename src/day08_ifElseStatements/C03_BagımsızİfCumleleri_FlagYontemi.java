@@ -49,7 +49,7 @@ public class C03_BagımsızİfCumleleri_FlagYontemi {
 
         /*
             Basta flag variable'ina 20 degerini verdik
-            bagimsiz if cumlelerinin body'lerinde ise hep flaf'a 40 degerini atadik
+            bagimsiz if cumlelerinin body'lerinde ise hep flag'a 40 degerini atadik
 
             sona geldigimizde
             flag 20 veya 40 degerlerinden birine esit olacaktir

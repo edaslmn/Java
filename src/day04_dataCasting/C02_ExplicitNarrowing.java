@@ -1,4 +1,4 @@
-package Day04_dataCasting;
+package day04_dataCasting;
 
 public class C02_ExplicitNarrowing {
 

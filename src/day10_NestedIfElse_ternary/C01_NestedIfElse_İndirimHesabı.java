@@ -50,6 +50,7 @@ public class C01_NestedIfElse_İndirimHesabı {
 
         } else {
             // urun adedi olarak 0 veya negatif girenlerin bolgesi
+            System.out.println("lütfen 0'dan büyük pozitif bir tamsayı giriniz!");
         }
     }
 }

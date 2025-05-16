@@ -30,12 +30,14 @@ public class C08_NestedIfElse_Indirim {
 
         if (kartVarMi == 'E'){
             // musteri karti olanlar bolgesi
-
+            if (adet >= 10) System.out.println("%20 indirimli ödemeniz: " + indirimsizToplamFiyat*80/100 + " TL");
+            else System.out.println("%15 indirimli ödemeniz: " + indirimsizToplamFiyat*85/100 + " TL");
 
 
         } else if ( kartVarMi == 'H') {
             // musteri karti olmayanlar bolgesi
-
+            if (adet >= 10) System.out.println("%15 indirimli ödemeniz: " + indirimsizToplamFiyat*85/100 + " TL");
+            else System.out.println("%10 indirimli ödemeniz: " + indirimsizToplamFiyat*90/100 + " TL");
 
 
         } else

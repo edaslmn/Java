@@ -21,6 +21,9 @@ public class C07_NestedIfElse_Emeklilik {
         System.out.println("Cinsiyetinizi giriniz... K : kadin , E : erkek");
         char cinsiyet = scanner.next().toUpperCase().charAt(0);
 
+
+
+
         /*
             Eger bir if else'de birden fazla degisken varsa
             Nested If Else Kullanilabilir
@@ -39,9 +42,9 @@ public class C07_NestedIfElse_Emeklilik {
         if (cinsiyet == 'K'){
             // Bu bolgede SADECE kadinlar var
             // Bu bolgede kadinlar icin yasa bagli bir if-else olusturalim
-            if (yas<15 || yas>80)
+            if (yas<15 || yas>80 )
                 System.out.println("Girdiginiz yas degeri uygun degil");
-            else if (yas >= 60)
+             else if (yas >= 60)
                 System.out.println("Kadin ve yas 60'dan fazla, emekli olabilir");
             else
                 System.out.println("Kadinlar 60 yasinda emekli olur, daha " + (60-yas) + " yıl calısman lazım");
@@ -54,6 +57,7 @@ public class C07_NestedIfElse_Emeklilik {
                 System.out.println("Erkek ve yas 65'den fazla, emekli olabilir");
             else
                 System.out.println("Erkekler 65 yasinda emekli olabilir, daha " + (65-yas) + " yıl calısman lazım");
+
 
         } else
             System.out.println("Cinsiyet olarak girilen deger hatali");

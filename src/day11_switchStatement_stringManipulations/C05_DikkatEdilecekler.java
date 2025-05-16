@@ -15,9 +15,9 @@ public class C05_DikkatEdilecekler {
         boolean bl = true ;
         long lng = 5;
 
-//
-//        switch (lng){
-//
+
+     //   switch (lng){
+
 //            case 3 :
 //
 //            default:
